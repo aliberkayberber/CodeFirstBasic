@@ -7,7 +7,7 @@ namespace CodeFirstBasic.Data
     {
         public PatikaFirstDbContext(DbContextOptions<PatikaFirstDbContext> options) : base(options)
         {
-            
+
         }
 
         public List<Game> Games { get; set; }
